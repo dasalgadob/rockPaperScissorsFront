@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>ROCK - PAPER -SCISSORS</h1>
+    <p>Rock Paper Scissors is a zero sum game that is usually played by two people using their hands
+      and no tools. The idea is to make shapes with an outstreched hand where each shape will have a 
+      certain degree of power and will lead to an outcome</p>
+    <h2>SELECT YOUR BET</h2>
+    <button>Rock</button>
+    <button>Paper</button>
+    <button>Scissors</button>
+    </>
   );
 }
 
